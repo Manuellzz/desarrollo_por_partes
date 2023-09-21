@@ -1,0 +1,53 @@
+
+/* paleta de colores #331D2C, #3F2E3E, #A78295, #EFE1D1 */
+
+:root{
+    --bs-primero: #331D2C;
+    --bs-segundo: #3F2E3E;
+    --bs-tercero: #A78295;
+    --bs-cuarto: #fdf5ec;
+}
+
+.bg{
+    background-image: url(../img/loginImg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.button{
+    color: #ffffff;
+    background: var(--bs-tercero);
+}
+.button:hover{
+    background: #947384;
+}
+
+.bg-degradado{
+    background: linear-gradient(to right, var(--bs-primero), var(--bs-segundo));
+}
+
+.bg-primero{
+    background: var(--bs-primero);
+}
+
+.bg-segundo{
+    background: var(--bs-segundo);
+}
+
+.bg-tercero{
+    background: var(--bs-tercero);
+}
+
+.bg-cuarto{
+    background: var(--bs-cuarto);
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.link_a{
+    color: #000000;
+}
+
